@@ -1,0 +1,69 @@
+/* Pengaturan Dasar */
+body {
+    background-color: #0d1117; /* Warna gelap elegan */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.header-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.title-text {
+    color: white;
+    font-size: 20px;
+}
+
+
+.link-section {
+    width: 100%;
+    max-width: 400px; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.btn-link {
+    background-color: #ffffff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.btn-link:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transform: scale(1.05); 
+}
+
+
+.container-footer {
+    margin-top: auto;
+    padding: 20px;
+}
+
+.h1-footer {
+    color: #555;
+    font-size: 14px;
+}
